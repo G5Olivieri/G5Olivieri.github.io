@@ -5,15 +5,16 @@ function get() {
     })
     .done(function(data) {
         var temp = [];
-        document.getElementById('resp').innerHTML = ""
-        console.log(data);
+        document.getElementById('response').innerHTML = ""
         for(var k in data) {
-            for(var i in data[k]){
-                console.log(i + ": " + data[k][i]);
-                var cre = document.createElement('p');
-                cre.innerHTML = i + ": " + data[k][i];
-                document.getElementById('resp').appendChild(cre);
-            }
+            var row = document.createElement('tr');
+            var id = document.createElement('td');
+            var name = document.createElement('td');
+            id.innerHTML = data[k]['id'];
+            name.innerHTML = data[k]['fname'];
+            row.appendChild(id);
+            row.appendChild(name);
+            document.getElementById('response').appendChild(row);
         }
-    })
+    });
 }

@@ -1,8 +1,14 @@
 function post() {
     var data = {};
+    var formArr = $("#myForm").serializeArray();
+    
+    if(!validar()) {
+        alert('Preencha todos os campos')
+        return;
+    }
 
-    for(var i = 0; i < form.length; i++) {
-        data[form[i]['name']] = form[i]['value'];
+    for(var i = 0; i < formArr.length; i++) {
+        data[formArr[i]['name']] = formArr[i]['value']; 
     }
     $.ajax({
         type: 'POST',
@@ -22,4 +28,16 @@ function post() {
             document.getElementById('resp').appendChild(cre);
         }
     });
+}
+
+function validar() {
+    var teste = true;
+    var input = $("#myForm").children();
+    for(var i = 0; i < input.length-1; i++){
+        if((input[i].value == "" || input[i].value == null) && input[i].type != 'button') {
+            teste  = false;
+        }
+        input[i].value = "";
+    }
+    return teste;
 }
