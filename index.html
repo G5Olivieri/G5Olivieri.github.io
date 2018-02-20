@@ -2,11 +2,22 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Estudo JavaScript Mozilla</title>
+    <title>Meu cu</title>
+    <script
+  src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
+    
 </head>
 <body>
-    <h1></h1>
-    <button>Insira seu nome</button>
-    <script src="./js/script.js"></script>
+    <div id="app">
+        <form id="myForm">
+            <input type="text" name="id">
+            <input type="text" name="fname">
+            <button type="button" onclick="post()">Submit</button>
+        </form>
+        <button onclick="get()">Pegar</button>
+        <div id="resp"></div>
+    </div>
+    <script src="get.js"></script>
+    <script src="post.js"></script>
 </body>
 </html>
