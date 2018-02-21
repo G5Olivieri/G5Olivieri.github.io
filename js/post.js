@@ -12,7 +12,7 @@ function post() {
     }
     $.ajax({
         type: 'POST',
-        url: 'api1.php',
+        url: 'php/post.php',
         responseType: 'json',
         dataType: 'json',
         data: JSON.stringify(data),
@@ -33,8 +33,8 @@ function post() {
 function validar() {
     var teste = true;
     var input = $("#myForm").children();
-    for(var i = 0; i < input.length-1; i++){
-        if((input[i].value == "" || input[i].value == null) && input[i].type != 'button') {
+    for(var i = 0; i < input.length; i++){
+        if(input[i].value == "" || input[i].value == null) {
             teste  = false;
         }
         input[i].value = "";

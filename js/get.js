@@ -1,6 +1,6 @@
 function get() {
     $.ajax({
-        url: "api.php",
+        url: "php/get.php",
         responseType: 'json'
     })
     .done(function(data) {
