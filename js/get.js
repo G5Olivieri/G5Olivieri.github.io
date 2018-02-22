@@ -1,10 +1,11 @@
 function get() {
     $.ajax({
-        url: "php/get.php",
+        url: "php/Request/get.php",
         responseType: 'json'
     })
     .done(function(data) {
         var temp = [];
+        document.querySelector("div").setAttribute("class", "");
         document.getElementById('response').innerHTML = ""
         for(var k in data) {
             var row = document.createElement('tr');

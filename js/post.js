@@ -8,11 +8,11 @@ function post() {
     }
 
     for(var i = 0; i < formArr.length; i++) {
-        data[formArr[i]['name']] = formArr[i]['value']; 
-    }
+        data[formArr[i]['name']] = formArr[i]['value'];
+     }
     $.ajax({
         type: 'POST',
-        url: 'php/post.php',
+        url: 'php/Request/post.php',
         responseType: 'json',
         dataType: 'json',
         data: JSON.stringify(data),

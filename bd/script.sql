@@ -6,3 +6,5 @@ CREATE TABLE info(
 );
 
 select * from info;
+
+delete from info where id!=0;

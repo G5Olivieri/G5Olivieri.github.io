@@ -3,8 +3,10 @@
      * Essa classe é para o acesso ao banco de dados
      * @author Glayson Olivieri <glayson.murollo75@gmail.com>
      * @version 0.1
-     * @copyright GPLv3 © 2018
+     * @namespace Project\PDO
      */
+    namespace Project\PDO;
+    use \PDO;
     class MyPDO extends PDO
     {
 
@@ -27,6 +29,7 @@
         /**
          * @param Int $id
          * @param String $name
+         * @throws MyPDOException
          */
         public function insert(Int $id, String $name) {
             if($this->valid($id, $name)) {
@@ -46,6 +49,7 @@
          * @return array
          */
         public function getAll(): array {
+
             $arr = array();
             try{
                 $query = "SELECT * FROM info";
@@ -66,20 +70,22 @@
          */
         public function valid(Int $id, String $name): bool {
             try {
-                $query = /** @lang MySQL */
-                        <<<MYSQL
-SELECT * FROM info WHERE id='$id' and name='$name';
-MYSQL;
-//                echo $query;
-
-                if( $this->query($query)->fetch(PDO::FETCH_ASSOC)) {
+                /**
+                 * @var string $name
+                 * HEREDOC MYSQL query
+                 */
+                $query = "SELECT * FROM info WHERE id=:id and name=:name";
+                $stmt = $this->prepare($query, array(PDO::ATTR_CURSOR => PDO::CURSOR_FWDONLY));
+                $stmt->execute(array(':id' => $id, ':name' => $name));
+                if($stmt->fetch(PDO::FETCH_ASSOC)) {
                     return false;
+                } else {
+                    return true;
                 }
             } catch(PDOException $e) {
                 throw new MyPDOException($e);
-                 return false;
+                return false;
             }
-            return true;
         }
     }
 ?>
