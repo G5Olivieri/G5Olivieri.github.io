@@ -1,0 +1,29 @@
+Tag	            Elemento	        Descrição
+@api	        Methods	            Declara que os elementos são adequados para o consumo por terceiros.
+@author	        Any	                Documenta o autor do elemento associado.
+@category	    File, Class	        Uma série de pacotes juntos.
+@copyright	    Any             	Documenta as informações de direitos autorais do elemento associado.
+@deprecated	    Any	                Indica que o elemento associado é obsoleto e pode ser removido em uma versão futura.
+@example	    Any	                Mostra o código de um arquivo de exemplo especificado ou, opcionalmente, apenas uma parte dele.
+@filesource	    File	            Inclui a origem do arquivo atual para uso na saída.
+@global	        Variable	        Informa phpDocumentor de uma variável global ou seu uso.
+@ignore	        Any	                Diz ao phpDocumentor que o elemento associado não deve ser incluído na documentação.
+@internal	    Any	                Indica que os elementos associados são internos a essa aplicação ou biblioteca e oculta por padrão.
+@license	    File,Class	        Indica qual licença é aplicável para o elemento associado.
+@link	        Any	                Indica uma relação entre o elemento associado e uma página de um site.
+@method	        Class	            Permite que uma classe saiba quais métodos “mágicos” podem ser chamados.
+@package	    File, Class	        Categoriza o elemento associado em um agrupamento ou subdivisão lógica.
+@param	        Method,Function	    Documenta um único argumento de uma função ou método.
+@property	    Class	            Permite que uma classe saiba quais propriedades “mágicas” estão presentes.
+@property-read	Class	            Permite que uma classe saiba quais propriedades “mágicas” estão presentes que são somente leitura.
+@property-write	Class	            Permite que uma classe saiba quais propriedades “mágicas” estão presentes que são somente de gravação.
+@return	        Method, Function	Documenta o valor de retorno de funções ou métodos.
+@see	        Any	                Indica uma referência do elemento associado a um site ou outros elementos.
+@since	        Any	                Indica em qual versão o elemento associado ficou disponível.
+@source	        Any, except File	Mostra o código-fonte do elemento associado.
+@subpackage	    File, Class	        Categoriza o elemento associado em um agrupamento ou subdivisão lógica.
+@throws	        Method, Function	Indica se o elemento associado pode lançar um tipo específico de exceção.
+@todo	        Any	                Indica se alguma atividade de desenvolvimento ainda deve ser executada no elemento associado.
+@uses	        Any	                Indica uma referência para (e de) um único elemento associado.
+@var	        Properties	        Define que tipo de dados é representado por um valor de uma constante, propriedade ou variável.
+@version	    Any	                Indica a versão atual dos Elementos Estruturais.
