@@ -3,7 +3,7 @@
      * Essa classe é para o acesso ao banco de dados
      * @author Glayson Olivieri <glayson.murollo75@gmail.com>
      * @version 0.1
-     * @namespace Project\PDO
+     * @package Project\PDO
      */
     namespace Project\PDO;
     use \PDO;
