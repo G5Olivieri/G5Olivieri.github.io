@@ -4,19 +4,14 @@
     <list default="true" id="f020fe5c-ebdb-4138-8ecd-80d208e044c5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/bd/script.sql" afterPath="$PROJECT_DIR$/bd/script.sql" />
-      <change beforePath="$PROJECT_DIR$/js/get.js" afterPath="$PROJECT_DIR$/js/get.js" />
-      <change beforePath="$PROJECT_DIR$/js/post.js" afterPath="$PROJECT_DIR$/js/post.js" />
-      <change beforePath="$PROJECT_DIR$/php/MyPDO.php" afterPath="$PROJECT_DIR$/php/PDO/MyPDO.php" />
-      <change beforePath="$PROJECT_DIR$/php/MyPDOException.php" afterPath="$PROJECT_DIR$/php/PDO/MyPDOException.php" />
-      <change beforePath="$PROJECT_DIR$/php/estudo/arraysum.php" afterPath="$PROJECT_DIR$/estudo-extra/arraysum.php" />
-      <change beforePath="$PROJECT_DIR$/php/estudo/coalescencia.php" afterPath="$PROJECT_DIR$/estudo-extra/coalescencia.php" />
-      <change beforePath="$PROJECT_DIR$/php/estudo/insert.php" afterPath="$PROJECT_DIR$/estudo-extra/insert.php" />
-      <change beforePath="$PROJECT_DIR$/php/estudo/nave.php" afterPath="$PROJECT_DIR$/estudo-extra/nave.php" />
-      <change beforePath="$PROJECT_DIR$/php/estudo/return.php" afterPath="$PROJECT_DIR$/estudo-extra/return.php" />
-      <change beforePath="$PROJECT_DIR$/php/estudo/test.php" afterPath="$PROJECT_DIR$/estudo-extra/test.php" />
-      <change beforePath="$PROJECT_DIR$/php/get.php" afterPath="$PROJECT_DIR$/php/Request/get.php" />
-      <change beforePath="$PROJECT_DIR$/php/my_db_settings.ini" afterPath="$PROJECT_DIR$/php/PDO/my_db_settings.ini" />
-      <change beforePath="$PROJECT_DIR$/php/post.php" afterPath="$PROJECT_DIR$/php/Request/post.php" />
+      <change beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change beforePath="$PROJECT_DIR$/js/request.js" afterPath="$PROJECT_DIR$/js/request.js" />
+      <change beforePath="$PROJECT_DIR$/php/Model/FakeModel.php" afterPath="$PROJECT_DIR$/php/Model/FakeModel.php" />
+      <change beforePath="$PROJECT_DIR$/php/Model/FakeModelException.php" afterPath="$PROJECT_DIR$/php/Model/FakeModelException.php" />
+      <change beforePath="$PROJECT_DIR$/php/Model/PDO/MyPDO.php" afterPath="$PROJECT_DIR$/php/Model/PDO/MyPDO.php" />
+      <change beforePath="$PROJECT_DIR$/php/Model/PDO/MyPDOException.php" afterPath="$PROJECT_DIR$/php/Model/PDO/MyPDOException.php" />
+      <change beforePath="$PROJECT_DIR$/php/Request/get.php" afterPath="$PROJECT_DIR$/php/Request/get.php" />
+      <change beforePath="$PROJECT_DIR$/php/Request/post.php" afterPath="$PROJECT_DIR$/php/Request/post.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,22 +22,68 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MyPDO.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/PDO/MyPDO.php">
+      <file leaf-file-name="MyPDO.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/Model/PDO/MyPDO.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="485">
+              <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
               <folding>
-                <marker date="1519336154330" expanded="true" signature="1254:1289" ph="INSERT INTO info... " />
-                <marker date="1519336154330" expanded="true" signature="1785:1803" ph="SELECT * FRO... info" />
-                <marker date="1519336154330" expanded="true" signature="2462:2503" ph="SELECT * FRO... info" />
-                <marker date="1519336154330" expanded="true" signature="2462:2508" ph="SELECT * FRO... info" />
+                <element signature="e#43#57#0#PHP" expanded="true" />
+                <marker date="1519421465368" expanded="true" signature="1270:1295" ph="INSERT INTO info... " />
+                <marker date="1519421465368" expanded="true" signature="1270:1296" ph="INSERT INTO info... " />
+                <marker date="1519421465368" expanded="true" signature="1921:1939" ph="SELECT * FRO... info" />
+                <marker date="1519421465368" expanded="true" signature="2535:2559" ph="SELECT * FRO... info" />
+                <marker date="1519421465368" expanded="true" signature="2535:2561" ph="SELECT * FRO... info" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="get.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/Request/get.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <folding>
+                <element signature="e#10#182#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/php/Request/post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+              <folding>
+                <element signature="e#10#183#0#PHP" expanded="true" />
+                <element signature="e#258#272#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FakeModel.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/php/Model/FakeModel.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-639">
+              <caret line="44" column="51" lean-forward="false" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+              <folding>
+                <element signature="e#203#217#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -56,11 +97,19 @@
         <option value="$PROJECT_DIR$/php/get.php" />
         <option value="$PROJECT_DIR$/php/MyPDO.php" />
         <option value="$PROJECT_DIR$/js/post.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/get.js" />
-        <option value="$PROJECT_DIR$/php/Request/post.php" />
-        <option value="$PROJECT_DIR$/php/Request/get.php" />
+        <option value="$PROJECT_DIR$/js/request.js" />
+        <option value="$PROJECT_DIR$/php/PDO/MyPDOException.php" />
         <option value="$PROJECT_DIR$/php/PDO/MyPDO.php" />
+        <option value="$PROJECT_DIR$/php/Model/PDO/FakeModelException.php" />
+        <option value="$PROJECT_DIR$/php/Model/PDO/MyPDOException.php" />
+        <option value="$PROJECT_DIR$/php/Request/get.php" />
+        <option value="$PROJECT_DIR$/php/Model/FakeModelException.php" />
+        <option value="$PROJECT_DIR$/php/test.php" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/php/Request/post.php" />
+        <option value="$PROJECT_DIR$/php/Model/PDO/MyPDO.php" />
+        <option value="$PROJECT_DIR$/php/Model/FakeModel.php" />
       </list>
     </option>
   </component>
@@ -92,6 +141,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,11 +149,21 @@
               <item name="api" type="b2602c69:ProjectViewProjectNode" />
               <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="api" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="php" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -113,9 +173,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp1\htdocs\api\php\PDO" />
-      <recent name="C:\xampp1\htdocs\api\php\Request" />
-      <recent name="C:\xampp1\htdocs\api" />
+      <recent name="C:\xampp1\htdocs\api\php\Model" />
+      <recent name="C:\xampp1\htdocs\api\css\bootstrap" />
+      <recent name="C:\xampp1\htdocs\api\estudo-extra" />
+      <recent name="C:\xampp1\htdocs\api\js\popperjs" />
+      <recent name="C:\xampp1\htdocs\api\js\jquery" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -145,11 +207,12 @@
       <updated>1519253114990</updated>
       <workItem from="1519253120925" duration="5715000" />
       <workItem from="1519328134080" duration="7913000" />
+      <workItem from="1519408402927" duration="13218000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13628000" />
+    <option name="totallyTimeSpent" value="26846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="-4" width="1928" height="1088" extended-state="6" />
@@ -159,6 +222,7 @@
       <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -170,7 +234,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -187,15 +250,32 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/php/PDO/MyPDO.php">
+    <entry file="file://$PROJECT_DIR$/php/Model/PDO/MyPDO.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1519336154330" expanded="true" signature="1254:1289" ph="INSERT INTO info... " />
-            <marker date="1519336154330" expanded="true" signature="1785:1803" ph="SELECT * FRO... info" />
-            <marker date="1519336154330" expanded="true" signature="2462:2503" ph="SELECT * FRO... info" />
-            <marker date="1519336154330" expanded="true" signature="2462:2508" ph="SELECT * FRO... info" />
+            <element signature="e#43#57#0#PHP" expanded="true" />
+            <marker date="1519421465368" expanded="true" signature="1270:1295" ph="INSERT INTO info... " />
+            <marker date="1519421465368" expanded="true" signature="1270:1296" ph="INSERT INTO info... " />
+            <marker date="1519421465368" expanded="true" signature="1921:1939" ph="SELECT * FRO... info" />
+            <marker date="1519421465368" expanded="true" signature="2535:2559" ph="SELECT * FRO... info" />
+            <marker date="1519421465368" expanded="true" signature="2535:2561" ph="SELECT * FRO... info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Model/PDO/MyPDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#43#57#0#PHP" expanded="true" />
+            <marker date="1519421465368" expanded="true" signature="1270:1295" ph="INSERT INTO info... " />
+            <marker date="1519421465368" expanded="true" signature="1270:1296" ph="INSERT INTO info... " />
+            <marker date="1519421465368" expanded="true" signature="1921:1939" ph="SELECT * FRO... info" />
+            <marker date="1519421465368" expanded="true" signature="2535:2559" ph="SELECT * FRO... info" />
+            <marker date="1519421465368" expanded="true" signature="2535:2561" ph="SELECT * FRO... info" />
           </folding>
         </state>
       </provider>
@@ -204,7 +284,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -232,22 +311,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/PDO/MyPDOException.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="51" lean-forward="false" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/PDO/my_db_settings.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
@@ -259,59 +322,125 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="27" column="31" lean-forward="false" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/post.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="10" column="55" lean-forward="false" selection-start-line="10" selection-start-column="55" selection-end-line="10" selection-end-column="55" />
+        <state relative-caret-position="224">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/get.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+        <state relative-caret-position="192">
+          <caret line="12" column="24" lean-forward="false" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/estudo-extra/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Model/PDO/my_db_settings.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Model/PDO/MyPDOException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="28" lean-forward="false" selection-start-line="6" selection-start-column="28" selection-end-line="6" selection-end-column="28" />
+          <folding>
+            <element signature="e#10#165#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Model/FakeModelException.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="18" column="5" lean-forward="false" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/request.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="85" lean-forward="false" selection-start-line="7" selection-start-column="85" selection-end-line="7" selection-end-column="85" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/test.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/Request/post.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        <state relative-caret-position="288">
+          <caret line="18" column="62" lean-forward="false" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+          <folding>
+            <element signature="e#10#183#0#PHP" expanded="true" />
+            <element signature="e#258#272#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="656">
+          <caret line="41" column="45" lean-forward="false" selection-start-line="41" selection-start-column="45" selection-end-line="41" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/Request/get.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="22" column="25" lean-forward="true" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/PDO/MyPDO.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="24" lean-forward="false" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        <state relative-caret-position="240">
+          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding>
-            <marker date="1519336154330" expanded="true" signature="1254:1289" ph="INSERT INTO info... " />
-            <marker date="1519336154330" expanded="true" signature="1785:1803" ph="SELECT * FRO... info" />
-            <marker date="1519336154330" expanded="true" signature="2462:2503" ph="SELECT * FRO... info" />
-            <marker date="1519336154330" expanded="true" signature="2462:2508" ph="SELECT * FRO... info" />
+            <element signature="e#10#182#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Model/PDO/MyPDO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="485">
+          <caret line="35" column="13" lean-forward="true" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#43#57#0#PHP" expanded="true" />
+            <marker date="1519421465368" expanded="true" signature="1270:1295" ph="INSERT INTO info... " />
+            <marker date="1519421465368" expanded="true" signature="1270:1296" ph="INSERT INTO info... " />
+            <marker date="1519421465368" expanded="true" signature="1921:1939" ph="SELECT * FRO... info" />
+            <marker date="1519421465368" expanded="true" signature="2535:2559" ph="SELECT * FRO... info" />
+            <marker date="1519421465368" expanded="true" signature="2535:2561" ph="SELECT * FRO... info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/Model/FakeModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-639">
+          <caret line="44" column="51" lean-forward="false" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+          <folding>
+            <element signature="e#203#217#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>

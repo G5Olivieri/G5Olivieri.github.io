@@ -6,10 +6,15 @@
  * Time: 18:04
  */
 
-namespace Project\PDO;
+namespace Project\Model;
 
 
-class FakeModelException
+use Throwable;
+
+class FakeModelException extends \Exception
 {
-
+    public function __construct(string $message = "", int $code = 0, Throwable $previous = null)
+    {
+        parent::__construct($message, $code, $previous);
+    }
 }

@@ -6,14 +6,20 @@
      * @namespace Project\Request
      */
     namespace Project\Request;
-    include "../PDO/MyPDO.php";
-    use Project\PDO\MyPDO;
+    include '../Model/FakeModel.php';
+
+    use Exception;
+    use Project\Model\FakeModel;
+
     /**
      * Pegar a o conteúdo da requisição
      * @var stdClass $json
      */
-    $json = json_decode(file_get_contents('php://input'));
-    $con = new MyPDO();
-    $con->insert($json->{"id"}, $json->{"fname"});
-    $con = null;
-?>
+    try {
+        $fm = new FakeModel(file_get_contents('php://input'));
+        $fm->save();
+    } catch (Exception $e) {
+        $e->getMessage();
+    }
+
+    ?>

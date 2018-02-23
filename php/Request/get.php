@@ -7,7 +7,7 @@
      */
     namespace Project\Request;
     include '../PDO/MyPDO.php';
-    use Project\PDO\MyPDO;
+    use Project\Model\PDO\MyPDO;
     /**
      * Alterando Header http para aplicação json
      */

@@ -4,7 +4,7 @@
      * @author Glayson Olivieri <glayson.murollo75@gmail.com>
      * @version 0.1
      */
-    namespace Project\PDO;
+    namespace Project\Model\PDO;
     use \PDOException;
 
     /**

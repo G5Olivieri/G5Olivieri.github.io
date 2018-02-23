@@ -1,7 +1,10 @@
 <?php
-    namespace Project\PDO;
+    namespace Project\Model\PDO;
+    use Exception;
     use \PDO;
-    class MyPDO extends PDO
+use PDOException;
+
+class MyPDO extends PDO
     {
 
         /**
@@ -23,12 +26,13 @@
         }
 
         /**
-         * @param array $args
+         * @param $attributes
+         * @throws Exception
          */
         public function insert($attributes)
         {
             if(!is_object($attributes) && !is_array($attributes)) {
-                throw new \Exception(gettype($attributes) . ' não suportado');
+                throw new Exception(gettype($attributes) . ' não suportado');
             }
             if ($this->valid($attributes)) {
                 try {
@@ -64,7 +68,7 @@
         }
 
         /**
-         * @param $args
+         * @param $attributes
          * @return bool
          */
         public function valid($attributes): bool
