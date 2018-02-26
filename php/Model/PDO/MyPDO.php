@@ -74,10 +74,6 @@ class MyPDO extends PDO
         public function valid($attributes): bool
         {
             try {
-                /**
-                 * @var string $name
-                 * HEREDOC MYSQL query
-                 */
                 $query = "SELECT * FROM info WHERE ";
                 foreach($attributes as $key => $value) {
                     $query .= $key . "=:" . $key . " and ";
