@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color-primary: #0abab4;
+}
+
+header {
+    background-color: var(--color-primary);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 50px;
+}
+
+body {
+    margin-top: 50px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    padding: 5px;
+    font-weight: 600;
+    outline: none;
+}
+
+header nav ul li a:hover {
+    color: white;
+}
+header nav ul li {
+    display: inline-block;
+}
+
+header nav {
+    height: 100%;
+    width: 99%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+.jumbotron {
+    min-height: 100px;
+}
+
+.container {
+    margin-top: 50px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    color: var(--color-primary);
+    filter: brightness(.6);
+    text-transform: capitalize;
+}
+
+.menu {
+    padding: 0;
+    transform: translateY(1.5px)
+}
+
+.line {
+    width: 20px;
+    height: 3px;
+    background: white;
+    display: block;
+    margin-bottom: 3px;
+    border-radius: 20px;
+    transition: all 0.5s;
+
+}
+
+.menu-list-item[active="true"] .line:nth-child(1){
+    transform: rotate(-50deg) translate(-4.5px, 4px);
+    background-color: var(--color-primary);
+    filter: brightness(0.4) saturate(2)
+}
+
+.menu-list-item[active="true"] .line:nth-child(2){
+    opacity: 0;
+}
+
+.menu-list-item[active="true"] .line:last-child{
+    transform: rotate(50deg) translate(-4px,-4px);
+    background: var(--color-primary);
+    filter: brightness(0.4) saturate(2)
+}
+
+.line:last-child {
+    margin:0;
+}
+
+.menu-nav, #nav-bar-background {
+    display: block;
+    height: 100vh;
+    width: 100px;
+    overflow: visible;
+    position: absolute;
+    left: -100px;
+    transition: all .5s;
+}
+
+#nav-bar-background {
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.menu-nav {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.menu-list-item[active="true"] #nav-bar-background {
+    background: rgba(0, 0, 0, 0.5);
+    filter: blur(1px);
+}
+
+.menu-list-item[active="true"] .menu-nav,
+.menu-list-item[active="true"] #nav-bar-background {
+    transform: translateX(100px);
+}
